@@ -1,6 +1,6 @@
 import { useState } from 'react'
-//import reactLogo from './assets/react.svg'
-//import reactLogo from '/react-35ef61ed.svg'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <div>
         <a href="https://vitejs.dev" target="_blank">
-          <img src="./assets/vite.svg" className="logo" alt="Vite logo" />
+          <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank">
-          <img src="./assets/react.svg" className="logo react" alt="React logo" />
+          <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
       <h1>Vite + React</h1>
@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        アップロード　テスト5
+        アップロード　テスト6
       </p>
     </div>
   )
