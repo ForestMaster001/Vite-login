@@ -7,7 +7,8 @@ export default defineConfig({
   base: process.env.GITHUB_PAGES  // この行を追加
   ? "Vite-login"            // この行を追加
   : "./",  
-  plugins: [react(), viteSingleFile()],
+  //plugins: [react(), viteSingleFile()],
+  plugins: [react()],
   build:{
     //outDir: "server/hosting",
     outDir: "./docs"
